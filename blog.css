@@ -1,0 +1,112 @@
+body {
+  background-image: url('fondofinal.jpg');
+  background-attachment:fixed;
+
+}
+
+#plana{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding: 2px;
+}
+header {
+	box-shadow: 2px 2px 30px 10px black;
+	padding: 3px;
+	background-image: url('nin.jpg');
+	width: 100%;
+  text-align: center;
+  font-family: "Times New Roman", serif;
+
+
+}
+
+header h1{
+	margin-top:70px;
+	font-size: 3em;
+	padding-left:20px;
+	color:#white;
+}
+
+
+
+footer {
+	text-align:center;
+	font-size: 0.7em;
+}
+
+
+
+
+.menu caption {
+  padding: 100px 0;
+  background-color: red;
+  margin-bottom:10px;
+  font-family: "Prettendo", Verdana;
+  margin-top: 20px;
+	border-width: 2px;
+	border-style:outset;
+	border-color: red;
+	padding: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    margin: 0;
+    padding: 0;
+     position: fixed;
+     font-family: "Prettendo", Verdana;
+
+     height: 100%;
+     float:left;
+}
+
+.vertical-menu a {
+    background-color: red; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+
+    background-color: #red; /* Add a green color to the "active/current" link */
+    color: black;
+}
+
+
+
+
+#contingut {
+	width: 80%;
+	text-align: justify;
+	margin-left: 10%;
+  font-family: "Times New Roman", serif;
+}
+
+article {
+
+	border-width: 4px;
+	border-style: solid;
+	border-color: #FFDC73;
+	padding: 5px;
+	margin: 5px;
+	background-color:#FFCF40;
+  font-family: "Times New Roman", serif;
+}
+
+#destacat {
+	background-color:#FFDC73;
+	border-color: #FFCF40;
+	border-style: double;
+}
